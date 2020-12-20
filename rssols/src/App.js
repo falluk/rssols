@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Página React em contrução!
-        </p>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/roni-serra-009a9751/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Saiba mais sobre mim.
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
+    <Layout>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Roni Serra</Link>} scroll>
+            <Navigation>
+                <Link to="/resume">Resumo</Link>
+                <Link to="/contact">Contato</Link>
+            </Navigation>
+        </Header>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Roni Serra</Link>}>
+            <Navigation>
+              <Link to="/resume">Resumo</Link>
+              <Link to="/contact">Contato</Link>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div className="page-content" />
+            <Main/>
+        </Content>
+    </Layout>
+</div>
+
+    );
+  }
 }
 
 export default App;
