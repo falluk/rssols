@@ -33,9 +33,9 @@ class Resume extends Component {
             <h5>Web</h5>
             <a class="App-link" href="https://rssols.com.br/" target="_blank" rel="noopener noreferrer">RS Sols</a>
             <h5>LinkedIn</h5>
-            <a class="App-link" href="https://www.linkedin.com/in/roni-serra-009a9751/" target="_blank" rel="noopener noreferrer">RS Sols</a>
+            <a class="App-link" href="https://www.linkedin.com/in/roni-serra-009a9751/" target="_blank" rel="noopener noreferrer">Meu LinkedIn</a>
             <h5>Git Hub</h5>
-            <a class="App-link" href="https://github.com/falluk" target="_blank" rel="noopener noreferrer">RS Sols</a>
+            <a class="App-link" href="https://github.com/falluk" target="_blank" rel="noopener noreferrer">Meu GitHub</a>
             
 
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
