@@ -15,19 +15,27 @@ class Resume extends Component {
               <img
                 src="https://lh3.googleusercontent.com/pw/ACtC-3fqi5dJLIjjB3nX19LePu2TWGtM_EZN2r8TU5tVYqeoMGkroXH138oLEinwB2rzEyRY-wqZHdB3TqpYYOKffIOGQ6IWCU3qBh9V48w3BlLu_kJr9IPSCOE2zCQQj-0FnnYZwFzokYxJdM4E8u5CyX04mg=w521-h694-no?authuser=0"
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{
+                  width: '150px',
+                  height: '150px',
+                  objectPosition: 'absolute' ,
+                  borderRadius: '50%'
+                  }}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Roni Serra</h2>
+            <h2 style={{
+                        paddingTop: '10px',
+                        textAlign: 'center'}}>Roni Serra</h2>
+            
+
             <h4 style={{color: 'grey'}}>Desenvolvedor</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Sou um apaixonado por tecnologia, busco projetos freelance, open-source ou remunerado, para aprimorar meu conhecimento em desenvolvimento.</p>
+            <p>Sou um apaixonado por tecnologia, busco projetos para atuar como freelancer, com o objetivo de aprimorar meus conhecimentos na área de desenvolvimento.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Cidade</h5>
             <p>Presidente Prudente - SP</p>
-            <h5>Cel</h5>
-            <p>(18) 99712-7354</p>
+            
             <h5>Email</h5>
             <p>roniblizz87@gmail.com</p>
             <h5>Web</h5>
@@ -71,20 +79,28 @@ class Resume extends Component {
               <h2>Skills</h2>
               <Skills
                 skill="javascript"
-                progress={100}
+                progress={80}
                 />
                 <Skills
                   skill="HTML/CSS"
                   progress={80}
                   />
+                  
+                  <Skills
+                    skill="Python | Django "
+                    progress={60}
+                    />
+
                   <Skills
                     skill="NodeJS"
                     progress={50}
                     />
                     <Skills
-                      skill="React"
+                      skill="ReactJs"
                       progress={25}
                       />
+
+                    
 
                 <hr style={{borderTop: '3px solid #e22947'}} />
                 <h2>Idiomas</h2>
