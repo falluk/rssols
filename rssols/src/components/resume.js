@@ -31,7 +31,7 @@ class Resume extends Component {
 
             <h4 style={{color: 'grey'}}>Desenvolvedor</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Sou um apaixonado por tecnologia, busco projetos para atuar como freelancer, com o objetivo de aprimorar meus conhecimentos na área de desenvolvimento.</p>
+            <p>Sou um entusiasta por tecnologia, busco oportunidades para atuar como freelancer com o objetivo de aprimorar meus conhecimentos na área de desenvolvimento.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Cidade</h5>
             <p>Presidente Prudente - SP</p>
